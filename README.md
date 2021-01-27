@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Create React App for Assigmnet Star-wars
 
-This project was bootstrapped with [Create React App](https://github.com/yogitadheeraj/assigment-star-wars).
+This project was bootstrapped with [Create React App for Assigmnet Star-wars](https://github.com/yogitadheeraj/assigment-star-wars).
 
 ## Available Scripts
 
