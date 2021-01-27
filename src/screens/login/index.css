@@ -1,0 +1,24 @@
+.swal-modal {
+  width: 30rem;
+  border-radius: 2rem;
+}
+
+.logo {
+  margin-top: -6rem;
+}
+body {
+   background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   width: 100%;
+   height: 100%;
+}
+.login_container {
+  margin-top: 10%;
+  background-repeat: no-repeat;
+  background-size: 72rem;
+  width: 20%;
+  height: 35rem;
+  border-radius: 4rem;
+}
+.ui.grid>.column:not(.row) {
+  padding-top: 20rem !important;
+}
