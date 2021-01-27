@@ -33,7 +33,7 @@ const Planets = (data) => {
         dispatch(loadAllPlanets(""));
         const interval = setInterval(() => setTimer(timer + 1), 1000);
         return () => clearInterval(interval);
-    }, []);
+    }, timer);
     return (
         <div>
             <Row>

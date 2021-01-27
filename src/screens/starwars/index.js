@@ -24,7 +24,7 @@ const Starwars = (props) => {
             <Switch>
                 <Route exact path='/starwars'>
                     <Navbar />
-                    <Planets data={props.items} />
+                    <Planets data={props?.items} />
                 </Route>
                 <Route exact path="/logout">
                     <Login data={[]} isLogout={true} />

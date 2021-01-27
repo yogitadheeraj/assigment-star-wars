@@ -1,17 +1,16 @@
-import React, { useState, useEffect } from "react";
+
+
+import React from "react";
 import Login from "./screens/login"
-import Signup from "./screens/signup";
 import Starwars from "./screens/starwars";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 
-function App() {
-
+const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route exact path="/signup" component={Signup} />
           <Route exact path="/">
             <Login />
           </Route>

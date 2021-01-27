@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import Timer from "../../timer"
 
-function Navbar() {
+const Navbar = () => {
     return (
         <Menu inverted pointing>
             <Link to="/starwars">
